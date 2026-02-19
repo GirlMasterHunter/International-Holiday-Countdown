@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 5px;
+}
+
+button.active {
+    background: #007bff;
+    color: white;
+}
+
+.panel {
+    margin: 20px 0;
+}
+
+.countdown {
+    font-size: 40px;
+    font-weight: bold;
+}
