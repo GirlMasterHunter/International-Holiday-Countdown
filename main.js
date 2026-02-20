@@ -9,7 +9,6 @@ buttons.forEach(button => {
 
     button.addEventListener("click", async () => {
 
-        // zvýraznění aktivního tlačítka
         buttons.forEach(b => b.classList.remove("active"));
         button.classList.add("active");
 
